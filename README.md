@@ -4,6 +4,13 @@ Steam Windows版 **Myst IV: Revelation** の字幕・メニューを日本語化
 正規の英語版とWindows内の日本語フォントから、利用者のPCでパッチを生成・適用します。
 ゲーム本体・原本アーカイブ・フォント・生成済みゲームデータは配布しません。
 
+## ダウンロード
+
+[v0.1.0 配布ZIP（適用・復元スクリプト入り）](https://github.com/bubio/myst4-ja-patch/releases/download/v0.1.0/myst4-ja-patch-v0.1.0.zip)
+
+ZIPをフォルダーごと展開し、以下の適用手順を実行してください。
+必要なPythonやゲーム本体は同梱していません。配布物と変更内容は[リリースページ](https://github.com/bubio/myst4-ja-patch/releases/tag/v0.1.0)で確認できます。
+
 ## 対応内容
 
 - 会話・回想・夢・分岐する結末の字幕：240ファイル、空でない1,118区間。
@@ -32,7 +39,7 @@ Pythonは[公式サイト](https://www.python.org/downloads/windows/)から入�
 ## 適用する
 
 1. Steamでゲームの言語を**英語**にし、ゲームを終了する。
-2. このページの **Code → Download ZIP** でダウンロードし、フォルダーごと展開する。スクリプトだけを取り出さない。
+2. 上の**配布ZIP**をダウンロードし、フォルダーごと展開する。スクリプトだけを取り出さない。ソース一式は **Code → Download ZIP** からも入手できる。
 3. `apply_japanese.ps1` を右クリックし、**PowerShellで実行**する。Windows 11で表示されない場合は「その他のオプションを確認」を開く。
 4. 初回は専用のPython環境とPillowを用意し、原本をバックアップして、パッチを生成・適用する。数分かかる場合がある。
 5. 「日本語化の適用が完了しました」と表示されたら、Enterキーで閉じる。
